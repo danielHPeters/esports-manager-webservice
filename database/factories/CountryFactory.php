@@ -1,9 +1,11 @@
 <?php
 
 use Faker\Generator as Faker;
+use App\Country;
 
-$factory->define(App\Country::class, function (Faker $faker) {
-    return [
-        //
-    ];
+$factory->define(Country::class, function (Faker $faker) {
+  return [
+    Country::ISO_CODE => $faker->countryCode,
+    Country::NAME => $faker->country
+  ];
 });

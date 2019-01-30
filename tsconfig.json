@@ -1,14 +1,24 @@
 {
-  "lib": [
-    "dom",
-    "es5"
-  ],
   "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "public/js",
     "module": "commonjs",
     "target": "es5",
-    "removeComments": true,
+    "jsx": "react",
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "importHelpers": true,
     "sourceMap": true,
-    "jsx": "react"
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "experimentalDecorators": true,
+    "noUnusedLocals": true,
+    "lib": [
+      "dom",
+      "es6"
+    ]
   },
   "include": [
     "resources/assets/js/**/*"
