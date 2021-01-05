@@ -15,7 +15,7 @@
     "@types/react": "^16.8.19",
     "@types/react-dom": "^16.8.4",
     "@types/react-router-dom": "^4.3.3",
-    "axios": "^0.19",
+    "axios": "^0.21",
     "babel-preset-react": "^6.24.1",
     "cross-env": "^5.2",
     "i18next": "^17.0.1",
